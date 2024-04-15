@@ -27,4 +27,4 @@ function upperCase(string) {
     return upper;
 }
 
-console.log(upperCase(maya));
+console.log(upperCase("maya"));
