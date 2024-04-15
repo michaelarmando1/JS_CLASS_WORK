@@ -43,4 +43,10 @@ function middleLetter(string) {
     let midLetter = string.length;
 
     // If the length is odd
+
+    if (midLetter % 2 !== 0) {
+        return string[Math.floor(midLetter / 2)];
+    } else {
+        return string.subString(len)
+    }
 }
