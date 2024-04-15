@@ -21,3 +21,10 @@ const newGreet = () => {
 }
 
 console.log(newGreet());
+
+function upperCase(string) {
+    let upper = string.toUpperCase();
+    return upper;
+}
+
+console.log(upperCase(maya));
