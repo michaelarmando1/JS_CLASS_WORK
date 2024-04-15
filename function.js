@@ -49,5 +49,7 @@ function middleLetter(string) {
     } else {
         return string.subString(midLetter / 2 - 1, MidLetter / 2 + 1);
     }
-    
+
 }
+
+console.log(middleLetter("Michael"));
