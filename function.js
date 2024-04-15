@@ -28,3 +28,11 @@ function upperCase(string) {
 }
 
 console.log(upperCase("maya"));
+
+let addition = function (a, b, c) {
+    let sum = a + b + c;
+
+    console.log(sum);
+}
+
+addition(1,2,3);
