@@ -36,3 +36,11 @@ let addition = function (a, b, c) {
 }
 
 addition(1,2,3);
+
+// CLASSWORK Function that takes in a value as a string and returns the middle letter of the value
+
+function middleLetter(string) {
+    let midLetter = string.length;
+
+    // If the length is odd
+}
