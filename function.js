@@ -47,6 +47,7 @@ function middleLetter(string) {
     if (midLetter % 2 !== 0) {
         return string[Math.floor(midLetter / 2)];
     } else {
-        return string.subString(len)
+        return string.subString(midLetter / 2 - 1, MidLetter / 2 + 1);
     }
+    
 }
