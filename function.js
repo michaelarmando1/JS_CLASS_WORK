@@ -53,3 +53,7 @@ function middleLetter(string) {
 }
 
 console.log(middleLetter("Michael"));
+
+//ASSIGNMENT
+
+//Research on Higher Order Array Method
